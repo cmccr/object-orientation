@@ -65,7 +65,7 @@ let favoriteThings = {
 //Code here
 
 favoriteThings.car = "GtrR32"
-favoriteThings.brand = "Nike"
+favoriteThings.show = "The Office"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -115,7 +115,7 @@ const {title, firstName, lastName} = obj
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-
+console.log('Hello, Mr. Connor McCrory!')
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
