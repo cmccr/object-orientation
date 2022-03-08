@@ -64,8 +64,8 @@ let favoriteThings = {
 
 //Code here
 
-favoriteThings['car'] = "GTR R32"
-favoriteThings['brand'] = "Nike"
+favoriteThings.car = "GtrR32"
+favoriteThings.brand = "Nike"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -94,7 +94,9 @@ var carDetails = {
 
 //Code Here
 
-const {color, make, model, year} = car
+const {color, make, model, year} = carDetails
+
+console.log(`${color}, ${make}, ${model}, ${year}`)
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
